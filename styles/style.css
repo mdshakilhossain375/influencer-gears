@@ -68,6 +68,19 @@ h1{
         font-size: 16px;
         margin: 4px 2px;
   }
+
+.footer{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: darkorchid;}
+}
 .Influencer products{
     display: flex;
 font-size: 50px;
